@@ -2,7 +2,7 @@ import org.mindrot.jbcrypt.BCrypt;
 
 public class PasswordGenerator {
 	public static void main(String args[]){
-		String password = "123";
+		String password = args[0];
 		String hashedPassword = passwordHash(password);
 		System.out.println(hashedPassword);
 		checkPass(password, hashedPassword);
