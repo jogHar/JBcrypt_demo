@@ -1,8 +1,11 @@
-if this program run in cmd and command line argument
+if this program run using command prompt/terminal and command line argument
 
-compile--> javac -cp ".;../lib/jbcrypt-0.3m.jar" PasswordGenerator.java
+## compile 
+javac -cp ".;../lib/jbcrypt-0.3m.jar" PasswordGenerator.java
 
-run--> java -cp ".;../lib/jbcrypt-0.3m.jar" PasswordGenerator cmd-arg
+## run 
+java -cp ".;../lib/jbcrypt-0.3m.jar" PasswordGenerator cmd-arg
 
--".;../lib/jbcrypt-0.3m.jar" lib path
--cmd-arg--> command line argument
+## Information
+1. ".;../lib/jbcrypt-0.3m.jar" library path for jbcrypt
+2. cmd-arg -> command line argument(your password)
